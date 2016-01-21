@@ -4,7 +4,8 @@
   "description": "Highly configurable and customizable processing of Markdown files into HTML.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter html tests",
+    "watch": "mocha -w tests"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,11 @@
   "homepage": "https://github.com/dnutels/md-process#readme",
   "dependencies": {
     "marked": "^0.3.5"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1"
+  },
+  "engines" : { 
+    "node" : "~5.5.0" 
   }
 }
