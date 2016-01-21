@@ -1,0 +1,29 @@
+{
+  "name": "md-process",
+  "version": "0.0.2",
+  "description": "Highly configurable and customizable processing of Markdown files into HTML.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnutels/md-process.git"
+  },
+  "keywords": [
+    "markdown",
+    "md",
+    "process",
+    "html",
+    "convert"
+  ],
+  "author": "Dmitry Nutels",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnutels/md-process/issues"
+  },
+  "homepage": "https://github.com/dnutels/md-process#readme",
+  "dependencies": {
+    "marked": "^0.3.5"
+  }
+}
