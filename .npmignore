@@ -1,0 +1,6 @@
+.eslintrc
+.editorconfig
+.editorconfig
+.nycrc
+.yarn.lock
+tests/

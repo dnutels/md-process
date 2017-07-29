@@ -1,0 +1,18 @@
+{
+    "check-coverage": true,
+    "per-file": true,
+    "exclude": [
+        "lib/utils/log.js",
+        "tests/**/*"
+    ],
+    "reporter": [
+        "html",
+        "text"
+    ],
+    "require": [
+        "babel-core/register"
+    ],
+    "cache": true,
+    "all": false,
+    "report-dir": "./coverage"
+}
