@@ -1,6 +1,6 @@
 {
   "name": "md-process",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Markdown processing utility.",
   "scripts": {
     "test": "mocha tests/ --recursive",

@@ -4,6 +4,10 @@ The main purpose of the md-process module is to provide a highly configurable an
 
 ## md-process changelog
 
+### 1.0.0
+
+A major overhaul (__with breaking changes__) of the API and general purpose of the package.
+
 ### 0.0.2
 
 Restoration of the package
