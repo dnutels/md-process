@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Markdown processing utility.",
   "scripts": {
-    "test": "mocha tests/ --recursive",
-    "report": "nyc mocha tests/ --recursive",
+    "test": "mocha --recursive",
+    "report": "nyc mocha --recursive",
     "lint": "eslint --cache lib/",
     "build": "run-s lint test"
   },
